@@ -29,7 +29,7 @@ pk --key a475a27Bb1028f140bc2a7c843318afD --value "This is a secret!"
 pk -k a475a27Bb1028f140bc2a7c843318afD -v "This is a secret!"
 ```
 ## [小技巧] `//go:generate`快捷执行
-> 说明: `//go:generate`可以在Go文件注释位置显示一键执行图标，用法示例
+> 说明: `//go:generate`可以在Go文件注释位置显示一键执行图标(形如 main.go 文件中的用法)
 
 ```js
 //go:generate ./pk.exe --key a475a27Bb1028f140bc2a7c843318afD --value "This is a secret!"
