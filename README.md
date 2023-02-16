@@ -28,7 +28,7 @@ git clone https://github.com/aitimate/pk.git && cd pk && go install
 pk --key a475a27Bb1028f140bc2a7c843318afD --value "This is a secret!"
 pk -k a475a27Bb1028f140bc2a7c843318afD -v "This is a secret!"
 ```
-## 其他
+## 其他用法
 > `//go:generate`可以在注释位置执行CMD命令，形如 pk/main.go 文件中的用法
 
 
