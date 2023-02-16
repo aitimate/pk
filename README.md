@@ -4,7 +4,7 @@ USAGE:
    pk [global options] command [command options] [arguments...]
 
 GLOBAL OPTIONS:
-   --decrypt, -d, -D         Is the decrypt mode? or default encrypt mode (default: false)
+   --decrypt, -d, -D         Is the decrypt mode? or the default encrypt mode (default: false)
    --key value, -k value     The key for AES process
    --value value, -v value   The text value that you want to encrypt or decrypt
    --output value, -o value  The file path for the output text (default: "./.env")
@@ -28,7 +28,7 @@ git clone https://github.com/aitimate/pk.git && cd pk && go install
 pk --key a475a27Bb1028f140bc2a7c843318afD --value "This is a secret!"
 pk -k a475a27Bb1028f140bc2a7c843318afD -v "This is a secret!"
 ```
-## 其他 `//go:generate`快捷执行
+## 其他
 > `//go:generate`可以在注释位置执行CMD命令，形如 pk/main.go 文件中的用法
 
 
